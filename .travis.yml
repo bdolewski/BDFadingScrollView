@@ -1,0 +1,9 @@
+os:
+  - osx
+language: swift
+osx_image: xcode11.3
+env:
+  - PROJECT_NAME="BDFadingScrollView"
+install: swift package update
+script:
+  - xcodebuild build -sdk iphoneos -scheme $PROJECT_NAME
