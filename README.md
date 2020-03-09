@@ -5,6 +5,7 @@ It's Swift-ified fork of [SSFadingScrollView](https://github.com/stephsharp/SSFa
 A UIScrollView subclass that fades the leading and/or trailing edges of a scroll view to transparent. It animates the gradient in and out based on the current content offset, and uses a mask to fade the scroll view content without also fading the scroll bars.
 
 ## Screenshots by [Stephanie Sharp](https://github.com/stephsharp)
+
 ![SSFadingScrollView screenshots](SSFadingScrollView.png)
 
 ## Features
@@ -20,23 +21,23 @@ A UIScrollView subclass that fades the leading and/or trailing edges of a scroll
 
 ##### fadeLeadingEdge
 
-Fade leading edge of fade axis. Default is YES.
+Fade leading edge of fade axis. Default is `true`.
 
 ##### fadeTrailingEdge
 
-Fade trailing edge of fade axis. Default is YES.
+Fade trailing edge of fade axis. Default is `true`.
 
 ##### fadeSize
 
-Size of gradient. Default is 30.
+Size of gradient. Default is `30`.
 
 ##### fadeDuration
 
-Duration of fade in & out. Default is 0.3 seconds.
+Duration of fade in & out. Default is `0.3` seconds.
 
 ##### maskScrollBars
 
-Default is YES. Scroll bars are masked so they don't fade with the scroll view content. Set to NO to fade out the scroll bars along with the content.
+Default is `true`. Scroll bars are masked so they don't fade with the scroll view content. Set to `false` to fade out the scroll bars along with the content.
 
 ## Installation
 
