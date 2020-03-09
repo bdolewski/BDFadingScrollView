@@ -1,9 +1,10 @@
 # BDFadingScrollView
-It's Swift-ified fork of stephsharp/SSFadingScrollView
+It's Swift-ified fork of [SSFadingScrollView](https://github.com/stephsharp/SSFadingScrollView)
 
 
 A UIScrollView subclass that fades the leading and/or trailing edges of a scroll view to transparent. It animates the gradient in and out based on the current content offset, and uses a mask to fade the scroll view content without also fading the scroll bars.
 
+## Screenshots by [Stephanie Sharp](https://github.com/stephsharp)
 ![SSFadingScrollView screenshots](SSFadingScrollView.png)
 
 ## Features
